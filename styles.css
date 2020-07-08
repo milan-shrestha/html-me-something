@@ -1,0 +1,89 @@
+#banner {
+    max-width : 100%;
+    height : auto;
+    width : auto;
+    margin : auto;
+    display : block;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding : 18px 0 18px 0;
+    overflow: hidden;
+    background-color: #034694;
+    border: 1px solid #034694;
+    border-radius: 5px;
+    text-align : center;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Roboto Slab';
+}
+
+li a {
+    color : #fff;
+    text-align: center;
+    padding : 18px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color : #034694;
+    background-color: #fff;
+}
+
+article {
+    margin : 25px;
+}
+
+.page-part1 {
+    padding : 25px 50px;
+    border: 1px solid #034694;
+    border-radius: 10px;
+    background-color: #fff;
+    color : #034694;
+}
+
+.page-part2 {
+    padding : 25px 50px;
+    border: 1px solid #034694;
+    border-radius: 10px;
+    background-color: #034694;
+    color : #fff;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size : 1.25em;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    text-align : center;
+    text-decoration: underline;
+}
+
+.section-image {
+    display : block;
+    margin : 35px auto;
+    border-radius: 10px;
+}
+
+.social-links {
+    display : table;
+    margin : 0 auto;
+}
+
+.social-logo {
+    width : 45px;
+    height : 45ps;
+}
+
+#copyright {
+    text-align : center;
+    font-size: 1em;
+    color: #034694;
+}
